@@ -1,0 +1,47 @@
+#include<Servo.h>
+
+Servo rightLegF, rightLegB, leftLegF, leftLegB, rightFootF, rightFootB, leftFootF, leftFootB;
+
+ void setup()
+ {
+  rightLegF.attach(2);
+  rightLegB.attach(3);
+  leftLegF.attach(4);
+  leftLegB.attach(5);
+  rightFootF.attach(6);
+  rightFootB.attach(7);
+  leftFootF.attach(8);
+  leftFootB.attach(9);
+
+  rightLegF.write(90);
+  rightLegB.write(90);
+  leftLegF.write(90);
+  leftLegB.write(90);
+  rightFootF.write(90);
+  rightFootB.write(90);
+  leftFootF.write(90);
+  leftFootB.write(90);
+ }
+void loop ()
+{
+  rightLegF.write(90);
+  leftLegF.write(90);
+  rightLegB.write(90);
+  leftLegB.write(90);
+  rightFootF.write(90);
+  rightFootB.write(90);
+  leftFootF.write(90);
+  leftFootB.write(90);
+  delay(1000);
+  rightLegF.write(90);
+  leftLegF.write(90);
+  rightLegB.write(90);
+  leftLegB.write(90);
+  rightFootF.write(90);
+  rightFootB.write(90);
+  leftFootF.write(90);
+  leftFootB.write(90);
+  delay(1000);
+
+
+}
